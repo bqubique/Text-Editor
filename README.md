@@ -1,21 +1,24 @@
 # Text-Editor
 This program implements a text editor using Linked List and Stack data structures.
-Features:
 
-*Open an existing file and parse every line to a linked list.
+Each line of text is saved into a linked list node, which consists of a data portion holding the text and a pointer to the next node of the linked list, which is the next line of the text. The program makes use of Stack data structure to implement the Undo function.
 
-*Save into a file
+## Features:
 
-*Insert text into line n (user given line number and text)
+- Open an existing file and parse every line to a linked list.
 
-*Delete line n (user given line number)
+- Save into a file
 
-*Move line n to line m (interchanging two user given lines)
+- Insert text into line n (user given line number and text)
 
-*Replace text in line n (user given line number and text)
+- Delete line n (user given line number)
 
-*Next page
+- Move line n to line m (interchanging two user given lines)
 
-*Previous page
+- Replace text in line n (user given line number and text)
 
-*Undo (Implemented using Stack data structure)
+- Next page
+
+- Previous page
+
+- Undo (Implemented using Stack data structure) (Slightly buggy)
